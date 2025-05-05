@@ -6,7 +6,7 @@ import pickle
 
 app = FastAPI()
 
-# Model bileşenlerini yükle
+# Model bileşenlerini yüklee
 with open("best_model.pkl", "rb") as f:
     model = pickle.load(f)
 
